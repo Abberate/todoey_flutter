@@ -7,7 +7,7 @@ class TasksScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<bool> etattache = [false, true, false, true, false];
+    // List<bool> etattache = [false, true, false, true, false];
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: () {
