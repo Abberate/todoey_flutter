@@ -1,8 +1,10 @@
-class Task{
+import 'package:flutter/cupertino.dart';
+
+class Task extends ChangeNotifier{
+  Task({required this.name , required this.isDone});
+
   late String name;
   bool isDone = false;
-
-  Task({required this.name , required this.isDone});
 
   void toggleDone(){
     isDone = !isDone;
